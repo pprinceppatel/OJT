@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creamy Spoon Resturant</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <style>
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      font-size: medium;
+      border: 3px #666 double;
+    }
+
+    #nav {
+      display: flex;
+      align-items: center;
+      margin-right: 2rem;
+    }
+
+    li {
+      text-decoration: none;
+      list-style: none;
+      padding: 10px;
+    }
+
+    li > a {
+      text-decoration: none;
+      color: whitesmoke;
+      font-weight: bold;
+      font-size: large;
+    }
+    .bgimage {
+      height: 100vh;
+      background: url(./r31c-Creamy-Spoon-Garden-Restaurant-exterior.jpg);
+      background-size: cover;
+      position: relative;
+    }
+    
+    .food-menu-container img {
+      display: block;
+      width: 250px;
+      height: 250px;
+      /* border-radius: 50%; */
+      object-fit: cover;
+      object-position: center;
+    }
+    .food-menu-item {
+      display: flex;
+      flex: 1 1 600px;
+      justify-content: space-evenly;
+      margin-bottom: 3rem;
+    }
+    .food-menu-heading {
+      text-align: center;
+      font-size: 3.4rem;
+      font-weight: 400;
+      color: #666;
+    }
+    .food-menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px 0px 30px 0px;
+    }
+    .food-description {
+      margin: auto 1.5rem;
+    }
+
+    .footer {
+      
+        padding: 20px;
+        text-align: center;
+      }
+
+      .footer a {
+        color: #777777;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    
+  </style>
+<body style="scroll-behavior: smooth">
+    <div >
+      <nav >
+        <div style="margin-left: 2rem;">
+          <h3>Creamy Spoon</h3>
+        </div>
+        <div id="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </nav>
+      
+     </div>
+    <div class="container"> 
+
+    <!-- main baar -->
+    <section class="bgimage" id="home">
+    </section>
+    </div>
+    
+
+    <!-- about section-->
+    <section id="about">
+    <hr>
+        <h2 class="food-menu-heading">About</h2><hr>
+    <div class="container mt-4 pt-4">
+        <div class="about row mt-4 flex">
+            <div class="col-lg-4">
+                <img src="./interior-4.jpg" class= "imageAboutPage" alt="">
+            </div>
+
+            <div class="about_info col-lg-8">
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Creamy Spoon Resturant</li>
+                            
+                            <li>Graden Resturant</li>
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="row mt-3">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ab asperiores ex doloribus vero adipisci numquam hic modi illo cupiditate. Cupiditate rerum necessitatibus, aliquid quis labore modi itaque consequuntur quia?
+                    
+                    </p>
+                    <button class="favorite styled"
+                            type="button">About Restaurant</button>
+                                         
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Menu Section  -->
+    <section id="menu">
+        <hr />
+      <h2 class="food-menu-heading">Menu</h2><hr />
+      <div class="food-menu-container container">
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img
+              src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg"
+              alt="error"
+            />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 5</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Food Menu Item 6</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact Section  -->
+    <section id="contact">
+        <hr />
+        <h2 class="food-menu-heading">Contact</h2><hr />
+        <div class="container_2">
+            <div class="header">
+              <h1>Welcome to Our Hotel</h1>
+            </div>
+            <div class="description">
+              <p>Creamy spoon Restaurant, nr.jagatpur railway crossing, jagatpur, Ahmedabad, Gujarat</p>
+            </div>
+          </div>
+          <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14679.334930602246!2d72.557551!3d23.1031816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e835084c325f9%3A0xbecbe58c36d7a1d8!2sCreamy%20Spoon%20Garden%20Restaurant!5e0!3m2!1sen!2sin!4v1687341525433!5m2!1sen!2sin" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+          <div class="footer">
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <input type="submit" value="Send Message">
+            </form>
+          </div>
+    </section>
+
+
+    <footer> <hr />
+        <div class="footer">
+            <p>
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#menu">Menu</a>
+              <a href="#contact">Contact</a>
+            </p>
+      
+            <p>&copy; 2023 Creamy Spoon. All rights reserved.</p>
+          </div>
+    </footer>
+
+    <!-- Popup container -->
+  <div id="popupContainer">
+    <div id="popupContent">
+      <h2>Welcome to our Restaurant!</h2>
+      <h4 style="color: black; margin: 1rem;" >10% discount for Gujrati Thali</h4>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+  
+  <script>
+    // Function to close the popup
+    function closePopup() {
+        var popupContainer = document.getElementById('popupContainer');
+        popupContainer.style.display = 'none';
+    }
+
+// Display the popup when the page loads
+    window.onload = function() {
+        var popupContainer = document.getElementById('popupContainer');
+        popupContainer.style.display = 'flex';
+    }
+
+  </script>
+
+</body>
+</html>
