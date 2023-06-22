@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      #main li ul li {
+        display: none;
+      }
+      #main li:hover ul li {
+        display: block;
+      }
+
+      #main li:hover ul li ul li {
+        display: none;
+      }
+      #main li ul li:hover ul li {
+        display: block;
+      }
+      #main li ul li:hover ul li ul li {
+        display: none;
+      }
+      #main li ul li ul li:hover ul li {
+        display: block;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="main">
+      <li>
+        Google
+        <ul type="circle">
+          <li>
+            Gmail
+            <ul type="circle">
+              <li>Sign Up</li>
+              <li>
+                Sign In
+                <ul type="circle">
+                  <li>Sign in as Admin</li>
+                  <li>Sign in as Member</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Youtube</li>
+          <li>Gdrive</li>
+          <li>Gmap</li>
+        </ul>
+      </li>
+      <li>Facebook</li>
+      <li>
+        Microsoft
+        <ul type="circle">
+          <li>Bing</li>
+          <li>Linked In</li>
+        </ul>
+      </li>
+      <li>MsN</li>
+      <li>
+        Amazon
+        <ul type="circle">
+          <li>AWS</li>
+          <li>Ecommmerce</li>
+          <li>A-ML</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
