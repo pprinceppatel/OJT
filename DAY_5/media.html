@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 1rem;
+      }
+      #id1 {
+        background-color: aqua;
+        width: 33%;
+        height: 20rem;
+      }
+      #id2 {
+        background-color:bisque;
+        width: 33%;
+      }
+      #id3 {
+        background-color: rgb(10, 59, 59);
+        width: 33%;
+      }
+      @media only screen and (max-width: 600px) {
+        #main {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+        #id1 {
+        background-color: aqua;
+      }
+      #id2 {
+        background-color:bisque;
+      }
+      #id3 {
+        background-color: rgb(10, 59, 59);
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="id1"></div>
+      <div id="id2"></div>
+      <div id="id3"></div>
+    </div>
+  </body>
+</html>
